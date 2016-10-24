@@ -71,7 +71,7 @@
            <!-- <jdbcPersistenceAdapter dataSource="#MySQL-DS"/>-->
            ·<replicatedLevelDB
            	 	directory="${activemq.data}/leveldb"
-           	 	replicas="3" #节点个数
+           	 	replicas="3"
            	 	bind="tcp://0.0.0.0:62621"
            	 	zkAddress="localhost:2181,localhost:2182,localhost:2183"
            	 	hostname="localhost"
